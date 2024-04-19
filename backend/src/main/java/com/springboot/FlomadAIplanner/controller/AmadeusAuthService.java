@@ -25,22 +25,6 @@ public class AmadeusAuthService {
         this.restTemplate = restTemplate;
     }
 
-    // public String getAccessToken() {
-    //     String url = "https://test.api.amadeus.com/v1/security/oauth2/token";
-        
-    //     // 构建请求体
-    //     Map<String, String> requestBody = new HashMap<>();
-    //     requestBody.put("client_id", clientId);
-    //     requestBody.put("client_secret", clientSecret);
-    //     requestBody.put("grant_type", "client_credentials");
-
-    //     // 发送POST请求
-    //     Map<String, String> response = restTemplate.postForObject(url, requestBody, Map.class);
-        
-    //     // 返回访问令牌
-    //     return response != null ? response.get("access_token") : null;
-    // }
-
     public String getAccessToken() {
         String url = "https://test.api.amadeus.com/v1/security/oauth2/token";
 

@@ -66,5 +66,4 @@ public class FlightOfferController {
 
         return response.getBody();
     }
-    
 }

@@ -52,8 +52,6 @@ export class FlightOffersComponent implements OnInit {
       console.error('No flight offer data available for verification');
     }
   }
-
-
   submitForm() {
     const url = 'http://localhost:8080/flight-offers';
     this.http.get(url, { params: this.formData }).subscribe({

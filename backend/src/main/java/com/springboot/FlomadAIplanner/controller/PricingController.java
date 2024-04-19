@@ -22,7 +22,6 @@ public class PricingController {
 
     private final AmadeusAuthService amadeusAuthService;
 
-    // 注入AmadeusAuthService
     @Autowired
     public PricingController(AmadeusAuthService amadeusAuthService) {
         this.amadeusAuthService = amadeusAuthService;

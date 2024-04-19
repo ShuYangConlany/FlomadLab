@@ -14,6 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 // 允许 localhost:4200 访问所有的 API 路径
+                System.out.println("Adding CORS Mappings");
                 registry.addMapping("/**").allowedOrigins("http://localhost:4200");
             }
         };

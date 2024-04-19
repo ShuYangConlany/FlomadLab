@@ -1,5 +1,11 @@
-<!-- hello-world.component.html -->
-<h1>Hello World!</h1>
-<button routerLink="/flight_offers">Go to Flight Offers</button>
-<a routerLink="/flight_offers" class="btn btn-primary">Go to Flight Offers</a>
-<router-outlet></router-outlet>
+<div class="main-container">
+    <app-side-bar></app-side-bar> 
+    <router-outlet></router-outlet>
+    <!-- <div class="content">
+      <h1>Hello World!</h1>
+      <button routerLink="/flight_offers">Go to Flight Offers</button>
+      <a routerLink="/flight_offers" class="btn btn-primary">Go to Flight Offers</a>
+      <button routerLink="/api-manager" class="btn btn-primary">Talk with Gemini</button>
+      <router-outlet></router-outlet>
+    </div> -->
+</div>
